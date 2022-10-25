@@ -182,13 +182,13 @@ function init(appId: string): HelpHero {
 
   // add script to page
   initializedAppId = appId;
-  fetch(`https://app.helphero.co/embed/${appId}`).then(res =>{
+  fetch(`https://app.helphero.co/embed/${appId}`).then((res) => {
     console.log(res);
-  })
+  });
   const script = document.createElement("script");
   script.src = `https://app.helphero.co/embed/${appId}`;
   script.async = true;
-  script.onload
+  script.onload;
   document.body.appendChild(script);
 
   return instance;
