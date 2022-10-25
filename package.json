@@ -1,9 +1,9 @@
 {
-  "name": "helphero",
+  "name": "helphero-local-storage-override",
   "version": "3.7.0",
-  "description": "Offical HelpHero SDK for browsers",
-  "repository": "git://github.com/HelpHero/helphero-javascript.git",
-  "homepage": "https://github.com/HelpHero/helphero-javascript",
+  "description": "HelpHero SDK for browsers with local storage override",
+  "repository": "git://github.com/philipvella/helphero-javascript-local-storage-override.git",
+  "homepage": "https://github.com/philipvella/helphero-javascript-local-storage-override",
   "author": "HelpHero",
   "license": "BSD-3-Clause",
   "engines": {
